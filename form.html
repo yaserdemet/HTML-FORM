@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="page.php" method="get" target="_blank">
+      <br />
+      <fieldset>
+        <legend>PERSONALIA</legend>
+
+        <table>
+          <tr>
+            <th><label for="fname">FIRST NAME</label></th>
+            <td><input type="text" id="fname" name="fname" value="MOOZZ" /></td>
+          </tr>
+          <tr>
+            <th><label for="lname">LAST NAME</label></th>
+            <td>
+              <input type="text" id="lname" name="lname" value="DUNEDAIN" />
+            </td>
+          </tr>
+
+          <tr>
+            <th><label for="age">AGE</label></th>
+            <td><input type="text" id="age" name="age" value="29" /></td>
+          </tr>
+          <tr>
+            <th><label for="sifre">SİFRE</label></th>
+            <td><input autofocus type="password" name="sifre" id="sifre" /></td>
+          </tr>
+          <tr>
+            <th><label for="birtday">BIRTHDAY</label></th>
+            <td><input type="date" name="birtday" id="birtday" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+
+    <form action="">
+      <label for="fname">FIRST NAME</label> <br />
+      <input type="text" id="fname" name="fname" /> <br />
+      <label for="lname">LAST NAME</label> <br />
+      <input type="text" id="lname" name="lname" /> <br />
+    </form>
+    <hr />
+    <br />
+
+    <form action="">
+      <p>Choose your favorite Web language:</p>
+
+      <input type="radio" id="html" value="HTML" />
+      <label for="html">HTML</label> <br />
+      <input type="radio" id="css" value="CSS" />
+      <label for="css">CSS</label> <br />
+      <input type="radio" id="js" value="JAVA SCRIPT" />
+      <label for="js">JAVA SCRIPT</label>
+    </form>
+    <br />
+    <hr />
+
+    <form action="action_page.php" target="_self" method="post">
+      <input type="checkbox" name="vehicle1" id="vehicle1" />
+      <label for="vehicle1">I HAVE A BIKE</label> <br />
+      <input type="checkbox" name="vehicle2" id="vehicle2" />
+      <label for="vehicle2">I HAVE A CAR</label> <br />
+      <input type="checkbox" name="vehicle3" id="vehicle3" />
+      <label for="vehicle3">I HAVE A MOTORBIKE</label>
+
+      <br />
+      <hr />
+    </form>
+
+    <form action="action_page.php" target="_blank" method="get">
+      <label for="fnmae">FIRST NAME</label> <br />
+      <input type="text" id="fname" value="YASER" name="fname" /> <br />
+      <label for="lname">LAST NAME</label> <br />
+      <input type="text" id="lname" value="DEMET" name="lname" /> <br /><br />
+      <input type="submit" value="SUBMIT" name="" />
+      <input type="reset" value="SIFIRLA" />
+    </form>
+    <br />
+    <hr />
+    <form action="action.php" method="get" target="_blank">
+      <label for="cars">CHOOSE A CAR</label>
+      <select name="cars" id="cars" size="2" multiple>
+        <option value="VOLVO">VOLVO</option>
+        <option value="AUDI">AUDI</option>
+        <option value="MERCEDES">MERCEDES</option>
+        <option value="FERRARI">FERRARI</option>
+        <option value="MAZDA" selected>MAZDA</option>
+        <br />
+      </select>
+      <br />
+      <input type="submit" id="sent" name="sent" /> <br />
+    </form>
+    <br />
+    <hr />
+  </body>
+</html>

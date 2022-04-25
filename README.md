@@ -1,5 +1,6 @@
 # HTML
 
 
-https://user-images.githubusercontent.com/99739515/165123674-c01c8915-c102-4d41-aeaa-f971ebde9093.mp4
 
+
+![Animation](https://user-images.githubusercontent.com/99739515/165128143-8cfecaf3-c325-4f9f-9679-a68c8922ed6e.gif)
